@@ -1,0 +1,113 @@
+{
+  "implementations": [
+    {
+      "file": "label_transfer.py",
+      "sha256": "2d920bf4e437ad458a8e781908e30f10c6c3096056f49d899307bc350a013c3c",
+      "role": "Unchanged original implementation"
+    },
+    {
+      "file": "label_transfer_r4.py",
+      "sha256": "ec2c3aa066d540d729b161a1d8fef16cc2bcc502d66493edc9b2082209f449a4",
+      "role": "Unchanged original implementation"
+    },
+    {
+      "file": "label_transfer_final.py",
+      "sha256": "594cbc0380ed023e58bd48dfa72a912d30b80b62c8f4c4cc14ec54f711140372",
+      "role": "Unchanged original implementation"
+    },
+    {
+      "file": "predict_label_transfer_final.py",
+      "sha256": "c38603c611ff5e3f0158f2fb9fad49d7a9680d6ecaa3055a494476fb6804ecc0",
+      "role": "Unchanged original implementation"
+    },
+    {
+      "file": "score_label_transfer_final.py",
+      "sha256": "e88b0b78cd743409108006af7dfd67ee377d5fa0d57644cf50975c8740d81d0e",
+      "role": "Unchanged original implementation"
+    },
+    {
+      "file": "retrieval_metrics.py",
+      "sha256": "aab5eda57f08c655a6c66df4448ef6904b2da0bf57388853f4e77ac473617ecf",
+      "role": "Unchanged original implementation"
+    },
+    {
+      "file": "query_structure_amendment.py",
+      "sha256": "c54ff57ae82ffd9de39c91e95f734710652a5642beb027546f2f11faa92b3d6c",
+      "role": "Unchanged original implementation"
+    },
+    {
+      "file": "test_label_transfer.py",
+      "sha256": "f6c6dfcc62f8fb676da614a4d61f73021864b236d0d012def470d488235f03a3",
+      "role": "Original synthetic/numerical tests"
+    },
+    {
+      "file": "test_label_transfer_r4.py",
+      "sha256": "0341d2a8fd98cd024cede46280dfbf1c99972221bb413c4a706fd4e2044d1e63",
+      "role": "Original synthetic/numerical tests"
+    },
+    {
+      "file": "test_label_transfer_final.py",
+      "sha256": "e3ceb38d53ca33509d6920931f2ca2fe7506f6be84ac76bc471a194b42f0d142",
+      "role": "Original synthetic/numerical tests"
+    },
+    {
+      "file": "test_final_prediction_scoring.py",
+      "sha256": "5b24c97ae854189eef893f2faf93a3902491b64ffa5483308de41ad37f23712a",
+      "role": "Original synthetic/numerical tests"
+    },
+    {
+      "file": "test_retrieval_metrics.py",
+      "sha256": "cce2ebccb22d42001fde467ae29787b912bddc9bfcc3000fccfbc64c597d913c",
+      "role": "Original synthetic/numerical tests"
+    },
+    {
+      "file": "test_query_structure_amendment.py",
+      "sha256": "7c61c2f5e1dcd59c1172d3d148003118b9341dde007bf657d90043eb52c88e69",
+      "role": "Original synthetic/numerical tests"
+    }
+  ],
+  "scope": "Core numerical and statistical methods unchanged; portable pipeline supplies new path-independent I/O. Selected configurations are the original training-only choices, not a new prospective freeze. Reproduction cannot undo earlier access or establish novelty.",
+  "portable_drivers": [
+    {
+      "file": "pipeline.py",
+      "sha256": "4b7c924c4330e10246f2c8aadc193149207448ea64579a2fa22f5c2d121134d4",
+      "role": "Path-independent original export driver; numerical core retained"
+    },
+    {
+      "file": "vector_io.py",
+      "sha256": "64777e5dc69d1dd5cab6448a349459fb056e8b940e840172634a26874a1624b9",
+      "role": "Path-independent original export driver; numerical core retained"
+    },
+    {
+      "file": "training_selection.py",
+      "sha256": "958e4382ba0380ac1ac2804db03662df767ea2e580db6dd03de70e5a215fcc3f",
+      "role": "Path-independent original export driver; numerical core retained"
+    },
+    {
+      "file": "selection_folds.py",
+      "sha256": "0aa3d26c8a78c0cbfe7074698752c7aa155b6507858c2be380cdcd82bc1656be",
+      "role": "Path-independent original export driver; numerical core retained"
+    },
+    {
+      "file": "verify.py",
+      "sha256": "11bcde16bb72e41b9461944f0250feb25db189f1f94d5300997e748c387d6ea1",
+      "role": "Path-independent original export driver; numerical core retained"
+    },
+    {
+      "file": "plot_figure.py",
+      "sha256": "cbfbec7ee002a79ce416f47b32961d705cb8bb865f8eae634a7c9a88499f8f0b",
+      "role": "Path-independent original export driver; numerical core retained"
+    }
+  ],
+  "validation": {
+    "core_tests": 50,
+    "training_selection_replayed": {
+      "glove_prefixes": 49,
+      "fasttext_prefixes": 299,
+      "outcome": "PASS"
+    },
+    "fresh_vector_to_score_replay": "Six selected-family systems, all nine metrics; all 19 model fits per resource checked",
+    "original_full_result_audit": "418 systems, 1497 evaluation rows and 1000 independently replayed bootstrap draws; PASS",
+    "limits": "The full 418-system portable wrapper was not rerun; original full outputs were independently audited. No hosted CI run is claimed."
+  }
+}

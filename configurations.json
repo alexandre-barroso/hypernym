@@ -1,0 +1,2354 @@
+{
+  "glove": {
+    "dimension": 50,
+    "training_rows": 1500,
+    "candidate_means": {
+      "vote_global_5": 0.11967642032269252,
+      "vote_global_10": 0.12418336681989155,
+      "vote_global_25": 0.12469918899178833,
+      "vote_type_5": 0.12344782143567552,
+      "vote_type_10": 0.12614514279975153,
+      "vote_type_25": 0.12657751969180556,
+      "ridge_B0_g0": 0.12702027659484133,
+      "ridge_B0_g1": 0.1259655761149409,
+      "ridge_B0_g2": 0.12593136300400246,
+      "ridge_B0_g3": 0.1258393693495088,
+      "ridge_B0_g4": 0.125841389551529,
+      "ridge_B1_all_g0": 0.12893835737906556,
+      "ridge_B1_all_g1": 0.1284365090758639,
+      "ridge_B1_all_g2": 0.12906028107938114,
+      "ridge_B1_all_g3": 0.12911941552518227,
+      "ridge_B1_all_g4": 0.12911252462067233,
+      "ridge_B1_coarse_g0": 0.12848916508987326,
+      "ridge_B1_coarse_g1": 0.12839409794466294,
+      "ridge_B1_coarse_g2": 0.12904326613384887,
+      "ridge_B1_coarse_g3": 0.129326664787464,
+      "ridge_B1_coarse_g4": 0.12933063304143225
+    },
+    "final_selections": {
+      "B0_family": "ridge_B0_g0",
+      "B0_ridge": "ridge_B0_g0",
+      "B1_all_family": "ridge_B1_all_g3",
+      "B1_all_ridge": "ridge_B1_all_g3",
+      "B1_coarse_family": "ridge_B1_coarse_g4",
+      "B1_coarse_ridge": "ridge_B1_coarse_g4"
+    },
+    "selection_rule": "Existing R4 pooled five-fold out-of-fold configuration means; ordered improvement strictly greater than 1e-12",
+    "all_prefix_schedule": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ],
+    "coarse_schedule": [
+      2,
+      7,
+      13,
+      18,
+      23,
+      29,
+      34,
+      39,
+      45,
+      50
+    ],
+    "single_prefix": {
+      "selected": {
+        "dimension": 42,
+        "configuration": "prefix_nn_042",
+        "training_oof_ap_capped_gold": 0.09534400554649612
+      },
+      "complete_training_oof_curve": [
+        {
+          "dimension": 2,
+          "configuration": "prefix_nn_002",
+          "training_oof_ap_capped_gold": 0.05946199352412695
+        },
+        {
+          "dimension": 3,
+          "configuration": "prefix_nn_003",
+          "training_oof_ap_capped_gold": 0.06763426999104627
+        },
+        {
+          "dimension": 4,
+          "configuration": "prefix_nn_004",
+          "training_oof_ap_capped_gold": 0.07031156712072435
+        },
+        {
+          "dimension": 5,
+          "configuration": "prefix_nn_005",
+          "training_oof_ap_capped_gold": 0.07015615654364711
+        },
+        {
+          "dimension": 6,
+          "configuration": "prefix_nn_006",
+          "training_oof_ap_capped_gold": 0.07109246531424158
+        },
+        {
+          "dimension": 7,
+          "configuration": "prefix_nn_007",
+          "training_oof_ap_capped_gold": 0.07436759877425601
+        },
+        {
+          "dimension": 8,
+          "configuration": "prefix_nn_008",
+          "training_oof_ap_capped_gold": 0.07463375558041281
+        },
+        {
+          "dimension": 9,
+          "configuration": "prefix_nn_009",
+          "training_oof_ap_capped_gold": 0.07722358706286334
+        },
+        {
+          "dimension": 10,
+          "configuration": "prefix_nn_010",
+          "training_oof_ap_capped_gold": 0.07958933998278293
+        },
+        {
+          "dimension": 11,
+          "configuration": "prefix_nn_011",
+          "training_oof_ap_capped_gold": 0.0799002800715008
+        },
+        {
+          "dimension": 12,
+          "configuration": "prefix_nn_012",
+          "training_oof_ap_capped_gold": 0.0808277892936132
+        },
+        {
+          "dimension": 13,
+          "configuration": "prefix_nn_013",
+          "training_oof_ap_capped_gold": 0.07802405217682051
+        },
+        {
+          "dimension": 14,
+          "configuration": "prefix_nn_014",
+          "training_oof_ap_capped_gold": 0.07734493464825853
+        },
+        {
+          "dimension": 15,
+          "configuration": "prefix_nn_015",
+          "training_oof_ap_capped_gold": 0.07846793544375934
+        },
+        {
+          "dimension": 16,
+          "configuration": "prefix_nn_016",
+          "training_oof_ap_capped_gold": 0.079476577626092
+        },
+        {
+          "dimension": 17,
+          "configuration": "prefix_nn_017",
+          "training_oof_ap_capped_gold": 0.0790961460206604
+        },
+        {
+          "dimension": 18,
+          "configuration": "prefix_nn_018",
+          "training_oof_ap_capped_gold": 0.07968105685057122
+        },
+        {
+          "dimension": 19,
+          "configuration": "prefix_nn_019",
+          "training_oof_ap_capped_gold": 0.08244453670405108
+        },
+        {
+          "dimension": 20,
+          "configuration": "prefix_nn_020",
+          "training_oof_ap_capped_gold": 0.080210124634639
+        },
+        {
+          "dimension": 21,
+          "configuration": "prefix_nn_021",
+          "training_oof_ap_capped_gold": 0.08071804340164508
+        },
+        {
+          "dimension": 22,
+          "configuration": "prefix_nn_022",
+          "training_oof_ap_capped_gold": 0.08321831997692165
+        },
+        {
+          "dimension": 23,
+          "configuration": "prefix_nn_023",
+          "training_oof_ap_capped_gold": 0.08224949331269815
+        },
+        {
+          "dimension": 24,
+          "configuration": "prefix_nn_024",
+          "training_oof_ap_capped_gold": 0.08231122775109925
+        },
+        {
+          "dimension": 25,
+          "configuration": "prefix_nn_025",
+          "training_oof_ap_capped_gold": 0.08493291221889485
+        },
+        {
+          "dimension": 26,
+          "configuration": "prefix_nn_026",
+          "training_oof_ap_capped_gold": 0.08528715737409237
+        },
+        {
+          "dimension": 27,
+          "configuration": "prefix_nn_027",
+          "training_oof_ap_capped_gold": 0.0874415081467765
+        },
+        {
+          "dimension": 28,
+          "configuration": "prefix_nn_028",
+          "training_oof_ap_capped_gold": 0.0882177259413276
+        },
+        {
+          "dimension": 29,
+          "configuration": "prefix_nn_029",
+          "training_oof_ap_capped_gold": 0.08702316907843742
+        },
+        {
+          "dimension": 30,
+          "configuration": "prefix_nn_030",
+          "training_oof_ap_capped_gold": 0.08804175185368687
+        },
+        {
+          "dimension": 31,
+          "configuration": "prefix_nn_031",
+          "training_oof_ap_capped_gold": 0.08880672507711247
+        },
+        {
+          "dimension": 32,
+          "configuration": "prefix_nn_032",
+          "training_oof_ap_capped_gold": 0.08683511839455339
+        },
+        {
+          "dimension": 33,
+          "configuration": "prefix_nn_033",
+          "training_oof_ap_capped_gold": 0.0888995784406801
+        },
+        {
+          "dimension": 34,
+          "configuration": "prefix_nn_034",
+          "training_oof_ap_capped_gold": 0.08927397031423866
+        },
+        {
+          "dimension": 35,
+          "configuration": "prefix_nn_035",
+          "training_oof_ap_capped_gold": 0.0900828055295818
+        },
+        {
+          "dimension": 36,
+          "configuration": "prefix_nn_036",
+          "training_oof_ap_capped_gold": 0.09055968995468051
+        },
+        {
+          "dimension": 37,
+          "configuration": "prefix_nn_037",
+          "training_oof_ap_capped_gold": 0.08844579596507222
+        },
+        {
+          "dimension": 38,
+          "configuration": "prefix_nn_038",
+          "training_oof_ap_capped_gold": 0.09071185026350749
+        },
+        {
+          "dimension": 39,
+          "configuration": "prefix_nn_039",
+          "training_oof_ap_capped_gold": 0.09199151757150814
+        },
+        {
+          "dimension": 40,
+          "configuration": "prefix_nn_040",
+          "training_oof_ap_capped_gold": 0.09281672818100446
+        },
+        {
+          "dimension": 41,
+          "configuration": "prefix_nn_041",
+          "training_oof_ap_capped_gold": 0.09427431366430422
+        },
+        {
+          "dimension": 42,
+          "configuration": "prefix_nn_042",
+          "training_oof_ap_capped_gold": 0.09534400554649612
+        },
+        {
+          "dimension": 43,
+          "configuration": "prefix_nn_043",
+          "training_oof_ap_capped_gold": 0.09416516189015245
+        },
+        {
+          "dimension": 44,
+          "configuration": "prefix_nn_044",
+          "training_oof_ap_capped_gold": 0.09495458932779417
+        },
+        {
+          "dimension": 45,
+          "configuration": "prefix_nn_045",
+          "training_oof_ap_capped_gold": 0.09473554170874654
+        },
+        {
+          "dimension": 46,
+          "configuration": "prefix_nn_046",
+          "training_oof_ap_capped_gold": 0.0949022083754132
+        },
+        {
+          "dimension": 47,
+          "configuration": "prefix_nn_047",
+          "training_oof_ap_capped_gold": 0.0949022083754132
+        },
+        {
+          "dimension": 48,
+          "configuration": "prefix_nn_048",
+          "training_oof_ap_capped_gold": 0.09529109726430211
+        },
+        {
+          "dimension": 49,
+          "configuration": "prefix_nn_049",
+          "training_oof_ap_capped_gold": 0.09529109726430211
+        },
+        {
+          "dimension": 50,
+          "configuration": "prefix_nn_050",
+          "training_oof_ap_capped_gold": 0.09529109726430211
+        }
+      ],
+      "maximizers_within_tolerance": [
+        {
+          "dimension": 42,
+          "configuration": "prefix_nn_042",
+          "training_oof_ap_capped_gold": 0.09534400554649612
+        }
+      ],
+      "tie_rule": "Largest dimension within 1e-12 of the complete curve maximum"
+    },
+    "component_removal": {
+      "removed": 1,
+      "convention": "Centered PCA residual coordinates z[m:D]; fixed heuristic, not exact printed Mu-Viswanath Algorithm 1"
+    },
+    "variance_schedule": {
+      "dimensions": [
+        2,
+        6,
+        9,
+        13,
+        18,
+        22,
+        27,
+        32,
+        38,
+        50
+      ],
+      "dimension_before_deduplication": [
+        2,
+        6,
+        9,
+        13,
+        18,
+        22,
+        27,
+        32,
+        38,
+        50
+      ],
+      "variance_targets": [
+        0.09162358936294017,
+        0.19255430165594684,
+        0.2934850139489535,
+        0.39441572624196014,
+        0.4953464385349668,
+        0.5962771508279734,
+        0.69720786312098,
+        0.7981385754139867,
+        0.8990692877069933,
+        1.0
+      ],
+      "cumulative_variance_at_dimensions": [
+        0.09162358936294017,
+        0.22146547065861394,
+        0.30263332203409254,
+        0.40168663178640013,
+        0.5156595213945749,
+        0.6024485701640048,
+        0.7056125131019285,
+        0.8025643663922849,
+        0.9099125495434158,
+        1.0
+      ],
+      "eigenvalues_float64_bytes_sha256": "602db295611ba94c60bc4b4aceca18df4d59149f5c6f3ba2b1f2dac1502a8be7"
+    },
+    "fixed_feature_panel_regularization": 1.0,
+    "fixed_feature_panel_base": "B0; identical reference roles, eligible queries, query-balanced weights and base scales",
+    "fixed_feature_panel_auxiliaries": [
+      "all_prefix_recurrence",
+      "coarse_recurrence",
+      "selected_prefix_list_indicator",
+      "centered_component_removal_list_indicator",
+      "variance_spaced_recurrence",
+      "sweep_visited_count_full_space_vote"
+    ]
+  },
+  "fasttext": {
+    "dimension": 300,
+    "training_rows": 1500,
+    "candidate_means": {
+      "vote_global_5": 0.13212465233010104,
+      "vote_global_10": 0.1313297805222049,
+      "vote_global_25": 0.13234184680162814,
+      "vote_type_5": 0.13085262235051612,
+      "vote_type_10": 0.13209801384411787,
+      "vote_type_25": 0.134253401386136,
+      "ridge_B0_g0": 0.13624252078292468,
+      "ridge_B0_g1": 0.1359719725719165,
+      "ridge_B0_g2": 0.1366233794007512,
+      "ridge_B0_g3": 0.13681851983486598,
+      "ridge_B0_g4": 0.13684036326920943,
+      "ridge_B1_all_g0": 0.14095160720943686,
+      "ridge_B1_all_g1": 0.14066568963477846,
+      "ridge_B1_all_g2": 0.14103024665302138,
+      "ridge_B1_all_g3": 0.14132582824029405,
+      "ridge_B1_all_g4": 0.14134730972177553,
+      "ridge_B1_coarse_g0": 0.14090817708768869,
+      "ridge_B1_coarse_g1": 0.14059378297588768,
+      "ridge_B1_coarse_g2": 0.14115863844048368,
+      "ridge_B1_coarse_g3": 0.14091209234356517,
+      "ridge_B1_coarse_g4": 0.1408688864753593
+    },
+    "final_selections": {
+      "B0_family": "ridge_B0_g4",
+      "B0_ridge": "ridge_B0_g4",
+      "B1_all_family": "ridge_B1_all_g4",
+      "B1_all_ridge": "ridge_B1_all_g4",
+      "B1_coarse_family": "ridge_B1_coarse_g2",
+      "B1_coarse_ridge": "ridge_B1_coarse_g2"
+    },
+    "selection_rule": "Existing R4 pooled five-fold out-of-fold configuration means; ordered improvement strictly greater than 1e-12",
+    "all_prefix_schedule": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271,
+      272,
+      273,
+      274,
+      275,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289,
+      290,
+      291,
+      292,
+      293,
+      294,
+      295,
+      296,
+      297,
+      298,
+      299,
+      300
+    ],
+    "coarse_schedule": [
+      2,
+      35,
+      68,
+      101,
+      134,
+      168,
+      201,
+      234,
+      267,
+      300
+    ],
+    "single_prefix": {
+      "selected": {
+        "dimension": 156,
+        "configuration": "prefix_nn_156",
+        "training_oof_ap_capped_gold": 0.11387027752260934
+      },
+      "complete_training_oof_curve": [
+        {
+          "dimension": 2,
+          "configuration": "prefix_nn_002",
+          "training_oof_ap_capped_gold": 0.0650717182423834
+        },
+        {
+          "dimension": 3,
+          "configuration": "prefix_nn_003",
+          "training_oof_ap_capped_gold": 0.06667906712806562
+        },
+        {
+          "dimension": 4,
+          "configuration": "prefix_nn_004",
+          "training_oof_ap_capped_gold": 0.06818120447044106
+        },
+        {
+          "dimension": 5,
+          "configuration": "prefix_nn_005",
+          "training_oof_ap_capped_gold": 0.07001578677085671
+        },
+        {
+          "dimension": 6,
+          "configuration": "prefix_nn_006",
+          "training_oof_ap_capped_gold": 0.06996604024753875
+        },
+        {
+          "dimension": 7,
+          "configuration": "prefix_nn_007",
+          "training_oof_ap_capped_gold": 0.07367236347163975
+        },
+        {
+          "dimension": 8,
+          "configuration": "prefix_nn_008",
+          "training_oof_ap_capped_gold": 0.07578067074050257
+        },
+        {
+          "dimension": 9,
+          "configuration": "prefix_nn_009",
+          "training_oof_ap_capped_gold": 0.07724449074765591
+        },
+        {
+          "dimension": 10,
+          "configuration": "prefix_nn_010",
+          "training_oof_ap_capped_gold": 0.07778885965035814
+        },
+        {
+          "dimension": 11,
+          "configuration": "prefix_nn_011",
+          "training_oof_ap_capped_gold": 0.07809469040396667
+        },
+        {
+          "dimension": 12,
+          "configuration": "prefix_nn_012",
+          "training_oof_ap_capped_gold": 0.07939414298841926
+        },
+        {
+          "dimension": 13,
+          "configuration": "prefix_nn_013",
+          "training_oof_ap_capped_gold": 0.07872704286631915
+        },
+        {
+          "dimension": 14,
+          "configuration": "prefix_nn_014",
+          "training_oof_ap_capped_gold": 0.08073250780261743
+        },
+        {
+          "dimension": 15,
+          "configuration": "prefix_nn_015",
+          "training_oof_ap_capped_gold": 0.08375194540205501
+        },
+        {
+          "dimension": 16,
+          "configuration": "prefix_nn_016",
+          "training_oof_ap_capped_gold": 0.08382074388752017
+        },
+        {
+          "dimension": 17,
+          "configuration": "prefix_nn_017",
+          "training_oof_ap_capped_gold": 0.08204343009020636
+        },
+        {
+          "dimension": 18,
+          "configuration": "prefix_nn_018",
+          "training_oof_ap_capped_gold": 0.08194141496541346
+        },
+        {
+          "dimension": 19,
+          "configuration": "prefix_nn_019",
+          "training_oof_ap_capped_gold": 0.08501130826141787
+        },
+        {
+          "dimension": 20,
+          "configuration": "prefix_nn_020",
+          "training_oof_ap_capped_gold": 0.0846995047871144
+        },
+        {
+          "dimension": 21,
+          "configuration": "prefix_nn_021",
+          "training_oof_ap_capped_gold": 0.08424119957380918
+        },
+        {
+          "dimension": 22,
+          "configuration": "prefix_nn_022",
+          "training_oof_ap_capped_gold": 0.08524535911796872
+        },
+        {
+          "dimension": 23,
+          "configuration": "prefix_nn_023",
+          "training_oof_ap_capped_gold": 0.08477076666309849
+        },
+        {
+          "dimension": 24,
+          "configuration": "prefix_nn_024",
+          "training_oof_ap_capped_gold": 0.0866749671950768
+        },
+        {
+          "dimension": 25,
+          "configuration": "prefix_nn_025",
+          "training_oof_ap_capped_gold": 0.08714808946375463
+        },
+        {
+          "dimension": 26,
+          "configuration": "prefix_nn_026",
+          "training_oof_ap_capped_gold": 0.0869562215785534
+        },
+        {
+          "dimension": 27,
+          "configuration": "prefix_nn_027",
+          "training_oof_ap_capped_gold": 0.08605819146052329
+        },
+        {
+          "dimension": 28,
+          "configuration": "prefix_nn_028",
+          "training_oof_ap_capped_gold": 0.08787622537105721
+        },
+        {
+          "dimension": 29,
+          "configuration": "prefix_nn_029",
+          "training_oof_ap_capped_gold": 0.0890196356644675
+        },
+        {
+          "dimension": 30,
+          "configuration": "prefix_nn_030",
+          "training_oof_ap_capped_gold": 0.0895640420913739
+        },
+        {
+          "dimension": 31,
+          "configuration": "prefix_nn_031",
+          "training_oof_ap_capped_gold": 0.09061343618493468
+        },
+        {
+          "dimension": 32,
+          "configuration": "prefix_nn_032",
+          "training_oof_ap_capped_gold": 0.09251507103156954
+        },
+        {
+          "dimension": 33,
+          "configuration": "prefix_nn_033",
+          "training_oof_ap_capped_gold": 0.09231553075702925
+        },
+        {
+          "dimension": 34,
+          "configuration": "prefix_nn_034",
+          "training_oof_ap_capped_gold": 0.0934410981063466
+        },
+        {
+          "dimension": 35,
+          "configuration": "prefix_nn_035",
+          "training_oof_ap_capped_gold": 0.09582090458073642
+        },
+        {
+          "dimension": 36,
+          "configuration": "prefix_nn_036",
+          "training_oof_ap_capped_gold": 0.0940564745663064
+        },
+        {
+          "dimension": 37,
+          "configuration": "prefix_nn_037",
+          "training_oof_ap_capped_gold": 0.09431179073162256
+        },
+        {
+          "dimension": 38,
+          "configuration": "prefix_nn_038",
+          "training_oof_ap_capped_gold": 0.09507732556715738
+        },
+        {
+          "dimension": 39,
+          "configuration": "prefix_nn_039",
+          "training_oof_ap_capped_gold": 0.09449857277673794
+        },
+        {
+          "dimension": 40,
+          "configuration": "prefix_nn_040",
+          "training_oof_ap_capped_gold": 0.0943809145707464
+        },
+        {
+          "dimension": 41,
+          "configuration": "prefix_nn_041",
+          "training_oof_ap_capped_gold": 0.09476072952431135
+        },
+        {
+          "dimension": 42,
+          "configuration": "prefix_nn_042",
+          "training_oof_ap_capped_gold": 0.0942993750961117
+        },
+        {
+          "dimension": 43,
+          "configuration": "prefix_nn_043",
+          "training_oof_ap_capped_gold": 0.09561866518873512
+        },
+        {
+          "dimension": 44,
+          "configuration": "prefix_nn_044",
+          "training_oof_ap_capped_gold": 0.09534676463558457
+        },
+        {
+          "dimension": 45,
+          "configuration": "prefix_nn_045",
+          "training_oof_ap_capped_gold": 0.09515340725222717
+        },
+        {
+          "dimension": 46,
+          "configuration": "prefix_nn_046",
+          "training_oof_ap_capped_gold": 0.09444607920989913
+        },
+        {
+          "dimension": 47,
+          "configuration": "prefix_nn_047",
+          "training_oof_ap_capped_gold": 0.09439758931575448
+        },
+        {
+          "dimension": 48,
+          "configuration": "prefix_nn_048",
+          "training_oof_ap_capped_gold": 0.09489389726706243
+        },
+        {
+          "dimension": 49,
+          "configuration": "prefix_nn_049",
+          "training_oof_ap_capped_gold": 0.09610694123367783
+        },
+        {
+          "dimension": 50,
+          "configuration": "prefix_nn_050",
+          "training_oof_ap_capped_gold": 0.09630141030957547
+        },
+        {
+          "dimension": 51,
+          "configuration": "prefix_nn_051",
+          "training_oof_ap_capped_gold": 0.09753057595874112
+        },
+        {
+          "dimension": 52,
+          "configuration": "prefix_nn_052",
+          "training_oof_ap_capped_gold": 0.09759861828678344
+        },
+        {
+          "dimension": 53,
+          "configuration": "prefix_nn_053",
+          "training_oof_ap_capped_gold": 0.09760655479471995
+        },
+        {
+          "dimension": 54,
+          "configuration": "prefix_nn_054",
+          "training_oof_ap_capped_gold": 0.09831744480418139
+        },
+        {
+          "dimension": 55,
+          "configuration": "prefix_nn_055",
+          "training_oof_ap_capped_gold": 0.09814374911715237
+        },
+        {
+          "dimension": 56,
+          "configuration": "prefix_nn_056",
+          "training_oof_ap_capped_gold": 0.09759947228287555
+        },
+        {
+          "dimension": 57,
+          "configuration": "prefix_nn_057",
+          "training_oof_ap_capped_gold": 0.09818021402570064
+        },
+        {
+          "dimension": 58,
+          "configuration": "prefix_nn_058",
+          "training_oof_ap_capped_gold": 0.09849302272493789
+        },
+        {
+          "dimension": 59,
+          "configuration": "prefix_nn_059",
+          "training_oof_ap_capped_gold": 0.09987860954552472
+        },
+        {
+          "dimension": 60,
+          "configuration": "prefix_nn_060",
+          "training_oof_ap_capped_gold": 0.09996215858907376
+        },
+        {
+          "dimension": 61,
+          "configuration": "prefix_nn_061",
+          "training_oof_ap_capped_gold": 0.10028286880478397
+        },
+        {
+          "dimension": 62,
+          "configuration": "prefix_nn_062",
+          "training_oof_ap_capped_gold": 0.10030688576005091
+        },
+        {
+          "dimension": 63,
+          "configuration": "prefix_nn_063",
+          "training_oof_ap_capped_gold": 0.10212326162184344
+        },
+        {
+          "dimension": 64,
+          "configuration": "prefix_nn_064",
+          "training_oof_ap_capped_gold": 0.10124330250688433
+        },
+        {
+          "dimension": 65,
+          "configuration": "prefix_nn_065",
+          "training_oof_ap_capped_gold": 0.10164422843281026
+        },
+        {
+          "dimension": 66,
+          "configuration": "prefix_nn_066",
+          "training_oof_ap_capped_gold": 0.10224405527263711
+        },
+        {
+          "dimension": 67,
+          "configuration": "prefix_nn_067",
+          "training_oof_ap_capped_gold": 0.10181518229376413
+        },
+        {
+          "dimension": 68,
+          "configuration": "prefix_nn_068",
+          "training_oof_ap_capped_gold": 0.10196884733242917
+        },
+        {
+          "dimension": 69,
+          "configuration": "prefix_nn_069",
+          "training_oof_ap_capped_gold": 0.10258686080044263
+        },
+        {
+          "dimension": 70,
+          "configuration": "prefix_nn_070",
+          "training_oof_ap_capped_gold": 0.10254092062950247
+        },
+        {
+          "dimension": 71,
+          "configuration": "prefix_nn_071",
+          "training_oof_ap_capped_gold": 0.1027668465554284
+        },
+        {
+          "dimension": 72,
+          "configuration": "prefix_nn_072",
+          "training_oof_ap_capped_gold": 0.1032011692697511
+        },
+        {
+          "dimension": 73,
+          "configuration": "prefix_nn_073",
+          "training_oof_ap_capped_gold": 0.10422656683514868
+        },
+        {
+          "dimension": 74,
+          "configuration": "prefix_nn_074",
+          "training_oof_ap_capped_gold": 0.10453896129254311
+        },
+        {
+          "dimension": 75,
+          "configuration": "prefix_nn_075",
+          "training_oof_ap_capped_gold": 0.1044485387521206
+        },
+        {
+          "dimension": 76,
+          "configuration": "prefix_nn_076",
+          "training_oof_ap_capped_gold": 0.10499955125813308
+        },
+        {
+          "dimension": 77,
+          "configuration": "prefix_nn_077",
+          "training_oof_ap_capped_gold": 0.10453331878690063
+        },
+        {
+          "dimension": 78,
+          "configuration": "prefix_nn_078",
+          "training_oof_ap_capped_gold": 0.10427547588905772
+        },
+        {
+          "dimension": 79,
+          "configuration": "prefix_nn_079",
+          "training_oof_ap_capped_gold": 0.10472124308482492
+        },
+        {
+          "dimension": 80,
+          "configuration": "prefix_nn_080",
+          "training_oof_ap_capped_gold": 0.10548023779381963
+        },
+        {
+          "dimension": 81,
+          "configuration": "prefix_nn_081",
+          "training_oof_ap_capped_gold": 0.10612788329646512
+        },
+        {
+          "dimension": 82,
+          "configuration": "prefix_nn_082",
+          "training_oof_ap_capped_gold": 0.10679592303450486
+        },
+        {
+          "dimension": 83,
+          "configuration": "prefix_nn_083",
+          "training_oof_ap_capped_gold": 0.10624407118265303
+        },
+        {
+          "dimension": 84,
+          "configuration": "prefix_nn_084",
+          "training_oof_ap_capped_gold": 0.1060343623729442
+        },
+        {
+          "dimension": 85,
+          "configuration": "prefix_nn_085",
+          "training_oof_ap_capped_gold": 0.10549658459516642
+        },
+        {
+          "dimension": 86,
+          "configuration": "prefix_nn_086",
+          "training_oof_ap_capped_gold": 0.1056194633830452
+        },
+        {
+          "dimension": 87,
+          "configuration": "prefix_nn_087",
+          "training_oof_ap_capped_gold": 0.10478972793330975
+        },
+        {
+          "dimension": 88,
+          "configuration": "prefix_nn_088",
+          "training_oof_ap_capped_gold": 0.10615738712596896
+        },
+        {
+          "dimension": 89,
+          "configuration": "prefix_nn_089",
+          "training_oof_ap_capped_gold": 0.10572479032462213
+        },
+        {
+          "dimension": 90,
+          "configuration": "prefix_nn_090",
+          "training_oof_ap_capped_gold": 0.10612535864519047
+        },
+        {
+          "dimension": 91,
+          "configuration": "prefix_nn_091",
+          "training_oof_ap_capped_gold": 0.10722102002085185
+        },
+        {
+          "dimension": 92,
+          "configuration": "prefix_nn_092",
+          "training_oof_ap_capped_gold": 0.10756030573513757
+        },
+        {
+          "dimension": 93,
+          "configuration": "prefix_nn_093",
+          "training_oof_ap_capped_gold": 0.10847052218535401
+        },
+        {
+          "dimension": 94,
+          "configuration": "prefix_nn_094",
+          "training_oof_ap_capped_gold": 0.108334649169481
+        },
+        {
+          "dimension": 95,
+          "configuration": "prefix_nn_095",
+          "training_oof_ap_capped_gold": 0.10820458201441385
+        },
+        {
+          "dimension": 96,
+          "configuration": "prefix_nn_096",
+          "training_oof_ap_capped_gold": 0.10855050794033975
+        },
+        {
+          "dimension": 97,
+          "configuration": "prefix_nn_097",
+          "training_oof_ap_capped_gold": 0.10902968783451966
+        },
+        {
+          "dimension": 98,
+          "configuration": "prefix_nn_098",
+          "training_oof_ap_capped_gold": 0.10856819895303078
+        },
+        {
+          "dimension": 99,
+          "configuration": "prefix_nn_099",
+          "training_oof_ap_capped_gold": 0.1082716706665025
+        },
+        {
+          "dimension": 100,
+          "configuration": "prefix_nn_100",
+          "training_oof_ap_capped_gold": 0.10869103574586757
+        },
+        {
+          "dimension": 101,
+          "configuration": "prefix_nn_101",
+          "training_oof_ap_capped_gold": 0.1083822526770845
+        },
+        {
+          "dimension": 102,
+          "configuration": "prefix_nn_102",
+          "training_oof_ap_capped_gold": 0.10916791164774349
+        },
+        {
+          "dimension": 103,
+          "configuration": "prefix_nn_103",
+          "training_oof_ap_capped_gold": 0.1094830174678493
+        },
+        {
+          "dimension": 104,
+          "configuration": "prefix_nn_104",
+          "training_oof_ap_capped_gold": 0.10904941958425142
+        },
+        {
+          "dimension": 105,
+          "configuration": "prefix_nn_105",
+          "training_oof_ap_capped_gold": 0.10911180775163958
+        },
+        {
+          "dimension": 106,
+          "configuration": "prefix_nn_106",
+          "training_oof_ap_capped_gold": 0.1085135537833856
+        },
+        {
+          "dimension": 107,
+          "configuration": "prefix_nn_107",
+          "training_oof_ap_capped_gold": 0.11009159130142314
+        },
+        {
+          "dimension": 108,
+          "configuration": "prefix_nn_108",
+          "training_oof_ap_capped_gold": 0.11115656244139427
+        },
+        {
+          "dimension": 109,
+          "configuration": "prefix_nn_109",
+          "training_oof_ap_capped_gold": 0.11142997513980697
+        },
+        {
+          "dimension": 110,
+          "configuration": "prefix_nn_110",
+          "training_oof_ap_capped_gold": 0.11155365238848422
+        },
+        {
+          "dimension": 111,
+          "configuration": "prefix_nn_111",
+          "training_oof_ap_capped_gold": 0.11109836619319803
+        },
+        {
+          "dimension": 112,
+          "configuration": "prefix_nn_112",
+          "training_oof_ap_capped_gold": 0.11065717090700275
+        },
+        {
+          "dimension": 113,
+          "configuration": "prefix_nn_113",
+          "training_oof_ap_capped_gold": 0.11103616154599337
+        },
+        {
+          "dimension": 114,
+          "configuration": "prefix_nn_114",
+          "training_oof_ap_capped_gold": 0.11078544726027907
+        },
+        {
+          "dimension": 115,
+          "configuration": "prefix_nn_115",
+          "training_oof_ap_capped_gold": 0.1109194924743243
+        },
+        {
+          "dimension": 116,
+          "configuration": "prefix_nn_116",
+          "training_oof_ap_capped_gold": 0.10980118800101983
+        },
+        {
+          "dimension": 117,
+          "configuration": "prefix_nn_117",
+          "training_oof_ap_capped_gold": 0.1098830927629246
+        },
+        {
+          "dimension": 118,
+          "configuration": "prefix_nn_118",
+          "training_oof_ap_capped_gold": 0.10973203456186638
+        },
+        {
+          "dimension": 119,
+          "configuration": "prefix_nn_119",
+          "training_oof_ap_capped_gold": 0.10879367477350661
+        },
+        {
+          "dimension": 120,
+          "configuration": "prefix_nn_120",
+          "training_oof_ap_capped_gold": 0.10892211392694576
+        },
+        {
+          "dimension": 121,
+          "configuration": "prefix_nn_121",
+          "training_oof_ap_capped_gold": 0.10935438905922089
+        },
+        {
+          "dimension": 122,
+          "configuration": "prefix_nn_122",
+          "training_oof_ap_capped_gold": 0.11002954704937887
+        },
+        {
+          "dimension": 123,
+          "configuration": "prefix_nn_123",
+          "training_oof_ap_capped_gold": 0.10906711318694504
+        },
+        {
+          "dimension": 124,
+          "configuration": "prefix_nn_124",
+          "training_oof_ap_capped_gold": 0.10971285818269001
+        },
+        {
+          "dimension": 125,
+          "configuration": "prefix_nn_125",
+          "training_oof_ap_capped_gold": 0.10915263618246801
+        },
+        {
+          "dimension": 126,
+          "configuration": "prefix_nn_126",
+          "training_oof_ap_capped_gold": 0.1105546306694625
+        },
+        {
+          "dimension": 127,
+          "configuration": "prefix_nn_127",
+          "training_oof_ap_capped_gold": 0.11099726655209838
+        },
+        {
+          "dimension": 128,
+          "configuration": "prefix_nn_128",
+          "training_oof_ap_capped_gold": 0.1103330433678752
+        },
+        {
+          "dimension": 129,
+          "configuration": "prefix_nn_129",
+          "training_oof_ap_capped_gold": 0.1097487713436032
+        },
+        {
+          "dimension": 130,
+          "configuration": "prefix_nn_130",
+          "training_oof_ap_capped_gold": 0.1101832135680454
+        },
+        {
+          "dimension": 131,
+          "configuration": "prefix_nn_131",
+          "training_oof_ap_capped_gold": 0.11081389325872508
+        },
+        {
+          "dimension": 132,
+          "configuration": "prefix_nn_132",
+          "training_oof_ap_capped_gold": 0.11089485044968228
+        },
+        {
+          "dimension": 133,
+          "configuration": "prefix_nn_133",
+          "training_oof_ap_capped_gold": 0.11104369049852232
+        },
+        {
+          "dimension": 134,
+          "configuration": "prefix_nn_134",
+          "training_oof_ap_capped_gold": 0.11091178166661347
+        },
+        {
+          "dimension": 135,
+          "configuration": "prefix_nn_135",
+          "training_oof_ap_capped_gold": 0.11006935187418371
+        },
+        {
+          "dimension": 136,
+          "configuration": "prefix_nn_136",
+          "training_oof_ap_capped_gold": 0.1110204100752419
+        },
+        {
+          "dimension": 137,
+          "configuration": "prefix_nn_137",
+          "training_oof_ap_capped_gold": 0.11115045789778973
+        },
+        {
+          "dimension": 138,
+          "configuration": "prefix_nn_138",
+          "training_oof_ap_capped_gold": 0.11073445180511697
+        },
+        {
+          "dimension": 139,
+          "configuration": "prefix_nn_139",
+          "training_oof_ap_capped_gold": 0.11102935921252437
+        },
+        {
+          "dimension": 140,
+          "configuration": "prefix_nn_140",
+          "training_oof_ap_capped_gold": 0.11065114492681008
+        },
+        {
+          "dimension": 141,
+          "configuration": "prefix_nn_141",
+          "training_oof_ap_capped_gold": 0.10993389365955883
+        },
+        {
+          "dimension": 142,
+          "configuration": "prefix_nn_142",
+          "training_oof_ap_capped_gold": 0.11001132067698584
+        },
+        {
+          "dimension": 143,
+          "configuration": "prefix_nn_143",
+          "training_oof_ap_capped_gold": 0.11077356731923248
+        },
+        {
+          "dimension": 144,
+          "configuration": "prefix_nn_144",
+          "training_oof_ap_capped_gold": 0.11061628941195457
+        },
+        {
+          "dimension": 145,
+          "configuration": "prefix_nn_145",
+          "training_oof_ap_capped_gold": 0.11086505083571599
+        },
+        {
+          "dimension": 146,
+          "configuration": "prefix_nn_146",
+          "training_oof_ap_capped_gold": 0.11044727305793822
+        },
+        {
+          "dimension": 147,
+          "configuration": "prefix_nn_147",
+          "training_oof_ap_capped_gold": 0.11033059825126341
+        },
+        {
+          "dimension": 148,
+          "configuration": "prefix_nn_148",
+          "training_oof_ap_capped_gold": 0.11044787338353854
+        },
+        {
+          "dimension": 149,
+          "configuration": "prefix_nn_149",
+          "training_oof_ap_capped_gold": 0.11144364057930575
+        },
+        {
+          "dimension": 150,
+          "configuration": "prefix_nn_150",
+          "training_oof_ap_capped_gold": 0.1103859686216338
+        },
+        {
+          "dimension": 151,
+          "configuration": "prefix_nn_151",
+          "training_oof_ap_capped_gold": 0.11064104798671315
+        },
+        {
+          "dimension": 152,
+          "configuration": "prefix_nn_152",
+          "training_oof_ap_capped_gold": 0.11159572170805356
+        },
+        {
+          "dimension": 153,
+          "configuration": "prefix_nn_153",
+          "training_oof_ap_capped_gold": 0.11169682874916058
+        },
+        {
+          "dimension": 154,
+          "configuration": "prefix_nn_154",
+          "training_oof_ap_capped_gold": 0.11255894515127697
+        },
+        {
+          "dimension": 155,
+          "configuration": "prefix_nn_155",
+          "training_oof_ap_capped_gold": 0.11310940811423996
+        },
+        {
+          "dimension": 156,
+          "configuration": "prefix_nn_156",
+          "training_oof_ap_capped_gold": 0.11387027752260934
+        },
+        {
+          "dimension": 157,
+          "configuration": "prefix_nn_157",
+          "training_oof_ap_capped_gold": 0.11353744923978108
+        },
+        {
+          "dimension": 158,
+          "configuration": "prefix_nn_158",
+          "training_oof_ap_capped_gold": 0.11384675080241598
+        },
+        {
+          "dimension": 159,
+          "configuration": "prefix_nn_159",
+          "training_oof_ap_capped_gold": 0.11289600081166598
+        },
+        {
+          "dimension": 160,
+          "configuration": "prefix_nn_160",
+          "training_oof_ap_capped_gold": 0.11265609340425857
+        },
+        {
+          "dimension": 161,
+          "configuration": "prefix_nn_161",
+          "training_oof_ap_capped_gold": 0.11231659447725964
+        },
+        {
+          "dimension": 162,
+          "configuration": "prefix_nn_162",
+          "training_oof_ap_capped_gold": 0.1124558217314869
+        },
+        {
+          "dimension": 163,
+          "configuration": "prefix_nn_163",
+          "training_oof_ap_capped_gold": 0.11221006415572932
+        },
+        {
+          "dimension": 164,
+          "configuration": "prefix_nn_164",
+          "training_oof_ap_capped_gold": 0.1119425509282161
+        },
+        {
+          "dimension": 165,
+          "configuration": "prefix_nn_165",
+          "training_oof_ap_capped_gold": 0.11112379190945708
+        },
+        {
+          "dimension": 166,
+          "configuration": "prefix_nn_166",
+          "training_oof_ap_capped_gold": 0.11046557901124417
+        },
+        {
+          "dimension": 167,
+          "configuration": "prefix_nn_167",
+          "training_oof_ap_capped_gold": 0.11084386183952702
+        },
+        {
+          "dimension": 168,
+          "configuration": "prefix_nn_168",
+          "training_oof_ap_capped_gold": 0.11104695948262464
+        },
+        {
+          "dimension": 169,
+          "configuration": "prefix_nn_169",
+          "training_oof_ap_capped_gold": 0.1114168895525547
+        },
+        {
+          "dimension": 170,
+          "configuration": "prefix_nn_170",
+          "training_oof_ap_capped_gold": 0.11081765674832192
+        },
+        {
+          "dimension": 171,
+          "configuration": "prefix_nn_171",
+          "training_oof_ap_capped_gold": 0.11117530225096742
+        },
+        {
+          "dimension": 172,
+          "configuration": "prefix_nn_172",
+          "training_oof_ap_capped_gold": 0.1108040829147481
+        },
+        {
+          "dimension": 173,
+          "configuration": "prefix_nn_173",
+          "training_oof_ap_capped_gold": 0.11096003529570045
+        },
+        {
+          "dimension": 174,
+          "configuration": "prefix_nn_174",
+          "training_oof_ap_capped_gold": 0.11097931379497894
+        },
+        {
+          "dimension": 175,
+          "configuration": "prefix_nn_175",
+          "training_oof_ap_capped_gold": 0.11197527339093855
+        },
+        {
+          "dimension": 176,
+          "configuration": "prefix_nn_176",
+          "training_oof_ap_capped_gold": 0.11206344077910593
+        },
+        {
+          "dimension": 177,
+          "configuration": "prefix_nn_177",
+          "training_oof_ap_capped_gold": 0.11193486935053452
+        },
+        {
+          "dimension": 178,
+          "configuration": "prefix_nn_178",
+          "training_oof_ap_capped_gold": 0.11265435727002245
+        },
+        {
+          "dimension": 179,
+          "configuration": "prefix_nn_179",
+          "training_oof_ap_capped_gold": 0.11150250541817058
+        },
+        {
+          "dimension": 180,
+          "configuration": "prefix_nn_180",
+          "training_oof_ap_capped_gold": 0.11138405164971683
+        },
+        {
+          "dimension": 181,
+          "configuration": "prefix_nn_181",
+          "training_oof_ap_capped_gold": 0.11151034794601311
+        },
+        {
+          "dimension": 182,
+          "configuration": "prefix_nn_182",
+          "training_oof_ap_capped_gold": 0.1115323056179708
+        },
+        {
+          "dimension": 183,
+          "configuration": "prefix_nn_183",
+          "training_oof_ap_capped_gold": 0.1111929273110925
+        },
+        {
+          "dimension": 184,
+          "configuration": "prefix_nn_184",
+          "training_oof_ap_capped_gold": 0.1113929273110925
+        },
+        {
+          "dimension": 185,
+          "configuration": "prefix_nn_185",
+          "training_oof_ap_capped_gold": 0.11175880032696549
+        },
+        {
+          "dimension": 186,
+          "configuration": "prefix_nn_186",
+          "training_oof_ap_capped_gold": 0.1117592406274058
+        },
+        {
+          "dimension": 187,
+          "configuration": "prefix_nn_187",
+          "training_oof_ap_capped_gold": 0.11250495491312006
+        },
+        {
+          "dimension": 188,
+          "configuration": "prefix_nn_188",
+          "training_oof_ap_capped_gold": 0.11230495491312006
+        },
+        {
+          "dimension": 189,
+          "configuration": "prefix_nn_189",
+          "training_oof_ap_capped_gold": 0.11190784461600978
+        },
+        {
+          "dimension": 190,
+          "configuration": "prefix_nn_190",
+          "training_oof_ap_capped_gold": 0.11150593985410501
+        },
+        {
+          "dimension": 191,
+          "configuration": "prefix_nn_191",
+          "training_oof_ap_capped_gold": 0.1118878975260627
+        },
+        {
+          "dimension": 192,
+          "configuration": "prefix_nn_192",
+          "training_oof_ap_capped_gold": 0.11229783018599536
+        },
+        {
+          "dimension": 193,
+          "configuration": "prefix_nn_193",
+          "training_oof_ap_capped_gold": 0.11206289632356148
+        },
+        {
+          "dimension": 194,
+          "configuration": "prefix_nn_194",
+          "training_oof_ap_capped_gold": 0.11169410844477361
+        },
+        {
+          "dimension": 195,
+          "configuration": "prefix_nn_195",
+          "training_oof_ap_capped_gold": 0.11189119839186355
+        },
+        {
+          "dimension": 196,
+          "configuration": "prefix_nn_196",
+          "training_oof_ap_capped_gold": 0.11185461109027625
+        },
+        {
+          "dimension": 197,
+          "configuration": "prefix_nn_197",
+          "training_oof_ap_capped_gold": 0.1114740555347207
+        },
+        {
+          "dimension": 198,
+          "configuration": "prefix_nn_198",
+          "training_oof_ap_capped_gold": 0.11128516664583181
+        },
+        {
+          "dimension": 199,
+          "configuration": "prefix_nn_199",
+          "training_oof_ap_capped_gold": 0.11109442590509108
+        },
+        {
+          "dimension": 200,
+          "configuration": "prefix_nn_200",
+          "training_oof_ap_capped_gold": 0.11171923664990183
+        },
+        {
+          "dimension": 201,
+          "configuration": "prefix_nn_201",
+          "training_oof_ap_capped_gold": 0.11174238720305235
+        },
+        {
+          "dimension": 202,
+          "configuration": "prefix_nn_202",
+          "training_oof_ap_capped_gold": 0.11147207640274155
+        },
+        {
+          "dimension": 203,
+          "configuration": "prefix_nn_203",
+          "training_oof_ap_capped_gold": 0.11174733373799889
+        },
+        {
+          "dimension": 204,
+          "configuration": "prefix_nn_204",
+          "training_oof_ap_capped_gold": 0.11166400040466556
+        },
+        {
+          "dimension": 205,
+          "configuration": "prefix_nn_205",
+          "training_oof_ap_capped_gold": 0.11135283638350156
+        },
+        {
+          "dimension": 206,
+          "configuration": "prefix_nn_206",
+          "training_oof_ap_capped_gold": 0.11103470867787384
+        },
+        {
+          "dimension": 207,
+          "configuration": "prefix_nn_207",
+          "training_oof_ap_capped_gold": 0.1108948806355458
+        },
+        {
+          "dimension": 208,
+          "configuration": "prefix_nn_208",
+          "training_oof_ap_capped_gold": 0.11026766248332764
+        },
+        {
+          "dimension": 209,
+          "configuration": "prefix_nn_209",
+          "training_oof_ap_capped_gold": 0.11075312664879182
+        },
+        {
+          "dimension": 210,
+          "configuration": "prefix_nn_210",
+          "training_oof_ap_capped_gold": 0.11115402204968723
+        },
+        {
+          "dimension": 211,
+          "configuration": "prefix_nn_211",
+          "training_oof_ap_capped_gold": 0.11118189242005758
+        },
+        {
+          "dimension": 212,
+          "configuration": "prefix_nn_212",
+          "training_oof_ap_capped_gold": 0.11115818871635388
+        },
+        {
+          "dimension": 213,
+          "configuration": "prefix_nn_213",
+          "training_oof_ap_capped_gold": 0.11140736460219644
+        },
+        {
+          "dimension": 214,
+          "configuration": "prefix_nn_214",
+          "training_oof_ap_capped_gold": 0.11140390781207299
+        },
+        {
+          "dimension": 215,
+          "configuration": "prefix_nn_215",
+          "training_oof_ap_capped_gold": 0.11161660622477139
+        },
+        {
+          "dimension": 216,
+          "configuration": "prefix_nn_216",
+          "training_oof_ap_capped_gold": 0.11133211294027812
+        },
+        {
+          "dimension": 217,
+          "configuration": "prefix_nn_217",
+          "training_oof_ap_capped_gold": 0.11166436602669787
+        },
+        {
+          "dimension": 218,
+          "configuration": "prefix_nn_218",
+          "training_oof_ap_capped_gold": 0.1117144100567419
+        },
+        {
+          "dimension": 219,
+          "configuration": "prefix_nn_219",
+          "training_oof_ap_capped_gold": 0.11232534480100996
+        },
+        {
+          "dimension": 220,
+          "configuration": "prefix_nn_220",
+          "training_oof_ap_capped_gold": 0.11278162786979304
+        },
+        {
+          "dimension": 221,
+          "configuration": "prefix_nn_221",
+          "training_oof_ap_capped_gold": 0.11319026984510168
+        },
+        {
+          "dimension": 222,
+          "configuration": "prefix_nn_222",
+          "training_oof_ap_capped_gold": 0.11336846849830033
+        },
+        {
+          "dimension": 223,
+          "configuration": "prefix_nn_223",
+          "training_oof_ap_capped_gold": 0.11302402405385589
+        },
+        {
+          "dimension": 224,
+          "configuration": "prefix_nn_224",
+          "training_oof_ap_capped_gold": 0.1128430716729035
+        },
+        {
+          "dimension": 225,
+          "configuration": "prefix_nn_225",
+          "training_oof_ap_capped_gold": 0.1127836055834374
+        },
+        {
+          "dimension": 226,
+          "configuration": "prefix_nn_226",
+          "training_oof_ap_capped_gold": 0.1130662127910446
+        },
+        {
+          "dimension": 227,
+          "configuration": "prefix_nn_227",
+          "training_oof_ap_capped_gold": 0.11301456776939961
+        },
+        {
+          "dimension": 228,
+          "configuration": "prefix_nn_228",
+          "training_oof_ap_capped_gold": 0.11247573660056844
+        },
+        {
+          "dimension": 229,
+          "configuration": "prefix_nn_229",
+          "training_oof_ap_capped_gold": 0.11222175132658316
+        },
+        {
+          "dimension": 230,
+          "configuration": "prefix_nn_230",
+          "training_oof_ap_capped_gold": 0.11203127513610697
+        },
+        {
+          "dimension": 231,
+          "configuration": "prefix_nn_231",
+          "training_oof_ap_capped_gold": 0.11224397354880539
+        },
+        {
+          "dimension": 232,
+          "configuration": "prefix_nn_232",
+          "training_oof_ap_capped_gold": 0.11288550794033977
+        },
+        {
+          "dimension": 233,
+          "configuration": "prefix_nn_233",
+          "training_oof_ap_capped_gold": 0.11292590134323317
+        },
+        {
+          "dimension": 234,
+          "configuration": "prefix_nn_234",
+          "training_oof_ap_capped_gold": 0.11211215120448303
+        },
+        {
+          "dimension": 235,
+          "configuration": "prefix_nn_235",
+          "training_oof_ap_capped_gold": 0.11171406077639259
+        },
+        {
+          "dimension": 236,
+          "configuration": "prefix_nn_236",
+          "training_oof_ap_capped_gold": 0.11174600522083705
+        },
+        {
+          "dimension": 237,
+          "configuration": "prefix_nn_237",
+          "training_oof_ap_capped_gold": 0.11229838617321801
+        },
+        {
+          "dimension": 238,
+          "configuration": "prefix_nn_238",
+          "training_oof_ap_capped_gold": 0.11273182634415817
+        },
+        {
+          "dimension": 239,
+          "configuration": "prefix_nn_239",
+          "training_oof_ap_capped_gold": 0.1125493273616592
+        },
+        {
+          "dimension": 240,
+          "configuration": "prefix_nn_240",
+          "training_oof_ap_capped_gold": 0.11226612537845722
+        },
+        {
+          "dimension": 241,
+          "configuration": "prefix_nn_241",
+          "training_oof_ap_capped_gold": 0.11244072855306039
+        },
+        {
+          "dimension": 242,
+          "configuration": "prefix_nn_242",
+          "training_oof_ap_capped_gold": 0.11206374442607625
+        },
+        {
+          "dimension": 243,
+          "configuration": "prefix_nn_243",
+          "training_oof_ap_capped_gold": 0.11226004072237254
+        },
+        {
+          "dimension": 244,
+          "configuration": "prefix_nn_244",
+          "training_oof_ap_capped_gold": 0.11222522590755774
+        },
+        {
+          "dimension": 245,
+          "configuration": "prefix_nn_245",
+          "training_oof_ap_capped_gold": 0.11209744812977995
+        },
+        {
+          "dimension": 246,
+          "configuration": "prefix_nn_246",
+          "training_oof_ap_capped_gold": 0.11211596664829847
+        },
+        {
+          "dimension": 247,
+          "configuration": "prefix_nn_247",
+          "training_oof_ap_capped_gold": 0.11207892961126144
+        },
+        {
+          "dimension": 248,
+          "configuration": "prefix_nn_248",
+          "training_oof_ap_capped_gold": 0.11258411479644663
+        },
+        {
+          "dimension": 249,
+          "configuration": "prefix_nn_249",
+          "training_oof_ap_capped_gold": 0.11322707775940959
+        },
+        {
+          "dimension": 250,
+          "configuration": "prefix_nn_250",
+          "training_oof_ap_capped_gold": 0.1122581888705207
+        },
+        {
+          "dimension": 251,
+          "configuration": "prefix_nn_251",
+          "training_oof_ap_capped_gold": 0.11191671552904738
+        },
+        {
+          "dimension": 252,
+          "configuration": "prefix_nn_252",
+          "training_oof_ap_capped_gold": 0.11147791211024395
+        },
+        {
+          "dimension": 253,
+          "configuration": "prefix_nn_253",
+          "training_oof_ap_capped_gold": 0.1120934676657995
+        },
+        {
+          "dimension": 254,
+          "configuration": "prefix_nn_254",
+          "training_oof_ap_capped_gold": 0.1122012117735436
+        },
+        {
+          "dimension": 255,
+          "configuration": "prefix_nn_255",
+          "training_oof_ap_capped_gold": 0.11175454510687695
+        },
+        {
+          "dimension": 256,
+          "configuration": "prefix_nn_256",
+          "training_oof_ap_capped_gold": 0.11163867209100393
+        },
+        {
+          "dimension": 257,
+          "configuration": "prefix_nn_257",
+          "training_oof_ap_capped_gold": 0.11164978320211504
+        },
+        {
+          "dimension": 258,
+          "configuration": "prefix_nn_258",
+          "training_oof_ap_capped_gold": 0.11186565621798805
+        },
+        {
+          "dimension": 259,
+          "configuration": "prefix_nn_259",
+          "training_oof_ap_capped_gold": 0.11164343399576585
+        },
+        {
+          "dimension": 260,
+          "configuration": "prefix_nn_260",
+          "training_oof_ap_capped_gold": 0.11217994193227378
+        },
+        {
+          "dimension": 261,
+          "configuration": "prefix_nn_261",
+          "training_oof_ap_capped_gold": 0.11217994193227378
+        },
+        {
+          "dimension": 262,
+          "configuration": "prefix_nn_262",
+          "training_oof_ap_capped_gold": 0.11209740224973411
+        },
+        {
+          "dimension": 263,
+          "configuration": "prefix_nn_263",
+          "training_oof_ap_capped_gold": 0.11204184669417853
+        },
+        {
+          "dimension": 264,
+          "configuration": "prefix_nn_264",
+          "training_oof_ap_capped_gold": 0.11204184669417853
+        },
+        {
+          "dimension": 265,
+          "configuration": "prefix_nn_265",
+          "training_oof_ap_capped_gold": 0.11241750806983991
+        },
+        {
+          "dimension": 266,
+          "configuration": "prefix_nn_266",
+          "training_oof_ap_capped_gold": 0.11231295780528963
+        },
+        {
+          "dimension": 267,
+          "configuration": "prefix_nn_267",
+          "training_oof_ap_capped_gold": 0.11237644986878172
+        },
+        {
+          "dimension": 268,
+          "configuration": "prefix_nn_268",
+          "training_oof_ap_capped_gold": 0.11242089431322616
+        },
+        {
+          "dimension": 269,
+          "configuration": "prefix_nn_269",
+          "training_oof_ap_capped_gold": 0.11242089431322616
+        },
+        {
+          "dimension": 270,
+          "configuration": "prefix_nn_270",
+          "training_oof_ap_capped_gold": 0.11297200542433726
+        },
+        {
+          "dimension": 271,
+          "configuration": "prefix_nn_271",
+          "training_oof_ap_capped_gold": 0.11297200542433726
+        },
+        {
+          "dimension": 272,
+          "configuration": "prefix_nn_272",
+          "training_oof_ap_capped_gold": 0.11297200542433726
+        },
+        {
+          "dimension": 273,
+          "configuration": "prefix_nn_273",
+          "training_oof_ap_capped_gold": 0.11303525328758511
+        },
+        {
+          "dimension": 274,
+          "configuration": "prefix_nn_274",
+          "training_oof_ap_capped_gold": 0.11280756097989282
+        },
+        {
+          "dimension": 275,
+          "configuration": "prefix_nn_275",
+          "training_oof_ap_capped_gold": 0.11280756097989282
+        },
+        {
+          "dimension": 276,
+          "configuration": "prefix_nn_276",
+          "training_oof_ap_capped_gold": 0.11258533875767059
+        },
+        {
+          "dimension": 277,
+          "configuration": "prefix_nn_277",
+          "training_oof_ap_capped_gold": 0.11275969773202958
+        },
+        {
+          "dimension": 278,
+          "configuration": "prefix_nn_278",
+          "training_oof_ap_capped_gold": 0.11260218857452041
+        },
+        {
+          "dimension": 279,
+          "configuration": "prefix_nn_279",
+          "training_oof_ap_capped_gold": 0.11251354388587571
+        },
+        {
+          "dimension": 280,
+          "configuration": "prefix_nn_280",
+          "training_oof_ap_capped_gold": 0.1123800477523796
+        },
+        {
+          "dimension": 281,
+          "configuration": "prefix_nn_281",
+          "training_oof_ap_capped_gold": 0.11263930701163884
+        },
+        {
+          "dimension": 282,
+          "configuration": "prefix_nn_282",
+          "training_oof_ap_capped_gold": 0.11257713769946953
+        },
+        {
+          "dimension": 283,
+          "configuration": "prefix_nn_283",
+          "training_oof_ap_capped_gold": 0.1131102064825383
+        },
+        {
+          "dimension": 284,
+          "configuration": "prefix_nn_284",
+          "training_oof_ap_capped_gold": 0.11307449219682401
+        },
+        {
+          "dimension": 285,
+          "configuration": "prefix_nn_285",
+          "training_oof_ap_capped_gold": 0.1127975080698399
+        },
+        {
+          "dimension": 286,
+          "configuration": "prefix_nn_286",
+          "training_oof_ap_capped_gold": 0.11237571319804503
+        },
+        {
+          "dimension": 287,
+          "configuration": "prefix_nn_287",
+          "training_oof_ap_capped_gold": 0.11266973029206212
+        },
+        {
+          "dimension": 288,
+          "configuration": "prefix_nn_288",
+          "training_oof_ap_capped_gold": 0.11261973029206214
+        },
+        {
+          "dimension": 289,
+          "configuration": "prefix_nn_289",
+          "training_oof_ap_capped_gold": 0.11255861918095102
+        },
+        {
+          "dimension": 290,
+          "configuration": "prefix_nn_290",
+          "training_oof_ap_capped_gold": 0.11255491547724732
+        },
+        {
+          "dimension": 291,
+          "configuration": "prefix_nn_291",
+          "training_oof_ap_capped_gold": 0.11265412182645367
+        },
+        {
+          "dimension": 292,
+          "configuration": "prefix_nn_292",
+          "training_oof_ap_capped_gold": 0.11273348690581875
+        },
+        {
+          "dimension": 293,
+          "configuration": "prefix_nn_293",
+          "training_oof_ap_capped_gold": 0.11273348690581875
+        },
+        {
+          "dimension": 294,
+          "configuration": "prefix_nn_294",
+          "training_oof_ap_capped_gold": 0.11282872500105684
+        },
+        {
+          "dimension": 295,
+          "configuration": "prefix_nn_295",
+          "training_oof_ap_capped_gold": 0.1127416594739913
+        },
+        {
+          "dimension": 296,
+          "configuration": "prefix_nn_296",
+          "training_oof_ap_capped_gold": 0.11344710920944105
+        },
+        {
+          "dimension": 297,
+          "configuration": "prefix_nn_297",
+          "training_oof_ap_capped_gold": 0.11282220078453262
+        },
+        {
+          "dimension": 298,
+          "configuration": "prefix_nn_298",
+          "training_oof_ap_capped_gold": 0.1129110896734215
+        },
+        {
+          "dimension": 299,
+          "configuration": "prefix_nn_299",
+          "training_oof_ap_capped_gold": 0.11296003147236332
+        },
+        {
+          "dimension": 300,
+          "configuration": "prefix_nn_300",
+          "training_oof_ap_capped_gold": 0.11362669813902998
+        }
+      ],
+      "maximizers_within_tolerance": [
+        {
+          "dimension": 156,
+          "configuration": "prefix_nn_156",
+          "training_oof_ap_capped_gold": 0.11387027752260934
+        }
+      ],
+      "tie_rule": "Largest dimension within 1e-12 of the complete curve maximum"
+    },
+    "component_removal": {
+      "removed": 3,
+      "convention": "Centered PCA residual coordinates z[m:D]; fixed heuristic, not exact printed Mu-Viswanath Algorithm 1"
+    },
+    "variance_schedule": {
+      "dimensions": [
+        2,
+        6,
+        12,
+        22,
+        38,
+        62,
+        95,
+        141,
+        203,
+        300
+      ],
+      "dimension_before_deduplication": [
+        2,
+        6,
+        12,
+        22,
+        38,
+        62,
+        95,
+        141,
+        203,
+        300
+      ],
+      "variance_targets": [
+        0.1962996560094233,
+        0.2855996942305985,
+        0.37489973245177366,
+        0.46419977067294893,
+        0.5534998088941241,
+        0.6427998471152992,
+        0.7320998853364745,
+        0.8213999235576497,
+        0.9106999617788248,
+        1.0
+      ],
+      "cumulative_variance_at_dimensions": [
+        0.1962996560094233,
+        0.304563269776905,
+        0.38198209681404355,
+        0.4677598760658395,
+        0.5561796975672946,
+        0.6456501776989166,
+        0.7335904726682304,
+        0.8228678059624926,
+        0.910740721952131,
+        1.0
+      ],
+      "eigenvalues_float64_bytes_sha256": "01ba11a70b7d4018cbfe412d918999ee91eb035c9b797ff1af3878006c959812"
+    },
+    "fixed_feature_panel_regularization": 1e-06,
+    "fixed_feature_panel_base": "B0; identical reference roles, eligible queries, query-balanced weights and base scales",
+    "fixed_feature_panel_auxiliaries": [
+      "all_prefix_recurrence",
+      "coarse_recurrence",
+      "selected_prefix_list_indicator",
+      "centered_component_removal_list_indicator",
+      "variance_spaced_recurrence",
+      "sweep_visited_count_full_space_vote"
+    ]
+  }
+}

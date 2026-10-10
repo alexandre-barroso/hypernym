@@ -1,0 +1,19 @@
+{
+  "dataset": {
+    "url": "https://drive.google.com/uc?export=download&id=14_RgB3_it7a_1mLXeRCyzwY5BHdWgnlP",
+    "sha256": "e978d0b9de9711e3664d576b463401795d45503f5bf6587392612a829b39a051",
+    "filename": "SemEval2018-Task9.zip"
+  },
+  "glove": {
+    "url": "https://nlp.stanford.edu/data/wordvecs/glove.2024.wikigiga.50d.zip",
+    "sha256": "afa5e258ee38272db6394547c4b075ecbb7b2164e98542c8d1237b6029b35a65",
+    "filename": "glove.2024.wikigiga.50d.zip",
+    "member": "wiki_giga_2024_50_MFT20_vectors_seed_123_alpha_0.75_eta_0.075_combined.txt"
+  },
+  "fasttext": {
+    "url": "https://dl.fbaipublicfiles.com/fasttext/vectors-english/wiki-news-300d-1M-subword.vec.zip",
+    "sha256": "c8ba15fff52df00fa1f86aa664f9cafc68ed355ac61ec3ac770a38fce577f91a",
+    "filename": "wiki-news-300d-1M-subword.vec.zip",
+    "member": "wiki-news-300d-1M-subword.vec"
+  }
+}
